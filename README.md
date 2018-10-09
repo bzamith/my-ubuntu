@@ -6,10 +6,19 @@
 sudo apt install gnome-tweak-tool
 ```
 #### Set Icons
-Download and set [MacOS11 icons](https://www.gnome-look.org/p/1102582/) 
+- Download [MacOS11 icons](https://www.gnome-look.org/p/1102582/) 
+- Extract to: ./icons (/home)
+- Set "Icons" at Tweak 
 
 #### Set Cursor
-Download and set [ElCaptain cursor](/OSX-ElCap.zip)
+- Download [ElCaptain cursor](/OSX-ElCap.zip)
+- Extract to: ./icons (/home)
+- Set "Cursor" at Tweak
+
+#### Set Theme
+- Download [Sierra Light Solid](/Sierra-light-solid.zip)
+- Extract to: ./themes (/home)
+- Set "Appplications" at Tweak
 
 ### 2. Change Plymouth Theme
 ```bash
