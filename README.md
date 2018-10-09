@@ -48,7 +48,38 @@ sudo apt remove gnome-shell-extension-ubuntu-dock
 sudo apt-get install plank
 ```
 
-### 5. Change Terminal Look
+### 5. Change Terminal Appearance
 
 ### 6. Install Main Programs
-
+- Java JDK
+```bash
+sudo apt-get install default-jdk
+```
+- Thunderbird Mail (Package Manager - Ubuntu Store)
+- Spotify
+```bash
+snap install spotify
+```
+- Sublime
+```bash
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt install sublime-text
+```
+- RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
+- Python 3 (Pre-installed)
+```bash
+sudo apt-get update
+sudo apt-get -y upgrade
+python3 -V
+```
+- Chrome ([Download link](https://www.google.com/intl/en-US/chrome/))
+- Cheese (Package Manager - Ubuntu Store)
+- Virtualbox (Windows with Photoshop)
+```bash
+yum install VirtualBox-5.2
+```
+- Yakuake
+```bash
+sudo apt-get install yakuake
+```
