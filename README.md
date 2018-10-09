@@ -26,6 +26,8 @@ sudo apt-get install plymouth-theme*
 sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 ```
+P.S: Pick theme "ubuntu-budgie-logo-scale-2.plymouth"
+
 ### 3. Change Login Background
 ```bash
 sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
