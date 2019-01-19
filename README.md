@@ -59,10 +59,11 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
 #e95420 > #63cde0
 #2c001e > #63cde0
 #dd4814 > #63cde0
-#e95320 > #63cde0 
+#e95320 > #63cde0
+#dd4814 > #2a9eb3
 ```
 
-63cde0 is light blue, pick the one that fits the most with the wallpaper.
+Change to the color that fits the most with the wallpaper.
 
 Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
 
