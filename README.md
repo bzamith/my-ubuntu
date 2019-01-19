@@ -56,16 +56,17 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
 
 ### Change colors: 
 ```
-e95420 > 63cde0
-2c001e > 63cde0
+#e95420 > #63cde0
+#2c001e > #63cde0
+#dd4814 > #63cde0
+#e95320 > #63cde0 
 ```
 
 63cde0 is light blue, pick the one that fits the most with the wallpaper.
 
 Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
 
-RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp)
-
+RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp).
 
 
 ### 5. Change dock
