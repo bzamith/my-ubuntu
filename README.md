@@ -49,7 +49,26 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
   background-position: center; }
 ```
 
-### 4. Change dock
+### 4. Change Ubuntu Colors
+```bash
+sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+```
+
+### Change colors: 
+```
+e95420 > 63cde0
+2c001e > 63cde0
+```
+
+63cde0 is light blue, pick the one that fits the most with the wallpaper.
+
+Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
+
+RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp)
+
+
+
+### 5. Change dock
 #### Remove Ubuntu Dock
 ```
 sudo apt remove gnome-shell-extension-ubuntu-dock
@@ -59,9 +78,9 @@ sudo apt remove gnome-shell-extension-ubuntu-dock
 sudo apt-get install plank
 ```
 
-### 5. Change Terminal Appearance
+### 6. Change Terminal Appearance
 
-### 6. Install Main Programs
+### 7. Install Main Programs
 - Java JDK
 ```bash
 sudo apt-get install default-jdk
