@@ -61,9 +61,10 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
 #dd4814 > #63cde0
 #e95320 > #63cde0
 #dd4814 > #2a9eb3
+#bb3e11 > #1c7f91
 ```
 
-Change to the color that fits the most with the wallpaper.
+Change to the color that fits the most with the wallpaper. (Light > #63cde0 > #2a9eb3 > #1c7f91 > Dark)
 
 Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
 
