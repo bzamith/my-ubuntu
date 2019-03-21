@@ -20,6 +20,11 @@ sudo apt install gnome-tweak-tool
 - Extract to: ./themes (/home)
 - Set "Appplications" at Tweak
 
+### Set Plank Theme
+- Download [MacOS Default Color](/macOS-Default-Color.zip)
+- Extract to: ./local/share/plank/themes (/home)
+- Set "Theme" at Plank (Right-Click at Plank > Preferences)
+
 ### 2. Change Plymouth Theme
 ```bash
 sudo apt-get install plymouth-theme*
