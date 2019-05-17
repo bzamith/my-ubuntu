@@ -97,7 +97,7 @@ sudo apt-get install gimp
 ```bash
 sudo apt-get install default-jdk
 ```
-- Netbeans IDE ([Download link](https://netbeans.org/downloads/8.0.1/))
+- Netbeans IDE ([Download link](https://netbeans.apache.org/download/))
 - RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
 - Spotify
 ```bash
