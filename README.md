@@ -3,7 +3,7 @@
 ### 1. Change Theme
 #### Install Tweak-Tool
 ```bash
-sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweaks
 ```
 #### Set Icons
 - Download [MacOS11 icons](https://www.gnome-look.org/p/1102582/) 
@@ -35,8 +35,7 @@ P.S: Pick theme "ubuntu-budgie-logo-scale-2.plymouth"
 
 ### 3. Change Login Background
 ```bash
-sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
-```
+sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css```
 
 #### Change the following lines:
 ```css
@@ -56,7 +55,7 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
 
 ### 4. Change Ubuntu Colors
 ```bash
-sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+sudo gedit /usr/share/gnome-shell/theme/gdm3.css
 ```
 
 ### Change colors: 
@@ -89,11 +88,17 @@ sudo apt-get install plank
 ### 6. Change Terminal Appearance
 
 ### 7. Install Main Programs
+- Chrome ([Download link](https://www.google.com/intl/en-US/chrome/))
+- Gimp
+```bash
+sudo apt-get install gimp
+```
 - Java JDK
 ```bash
 sudo apt-get install default-jdk
 ```
-- Thunderbird Mail (Package Manager - Ubuntu Store)
+- Netbeans IDE ([Download link](https://netbeans.org/downloads/8.0.1/))
+- RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
 - Spotify
 ```bash
 snap install spotify
@@ -104,15 +109,13 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install sublime-text
 ```
-- RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
-- Python 3 (Pre-installed)
+- TLP
 ```bash
+sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
-sudo apt-get -y upgrade
-python3 -V
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
 ```
-- Chrome ([Download link](https://www.google.com/intl/en-US/chrome/))
-- Cheese (Package Manager - Ubuntu Store)
 - Virtualbox (Windows with Photoshop)
 ```bash
 yum install VirtualBox-5.2
