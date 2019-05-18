@@ -88,6 +88,10 @@ sudo apt-get install plank
 ### 6. Change Terminal Appearance
 
 ### 7. Install Main Programs
+- Calibre
+```bash
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+```
 - Chrome ([Download link](https://www.google.com/intl/en-US/chrome/))
 - Gimp
 ```bash
