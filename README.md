@@ -124,7 +124,21 @@ sudo tlp start
 ```bash
 yum install VirtualBox-5.2
 ```
+- Visual Code
+```bash
+sudo snap install --classic vscode
+```
 - Yakuake
 ```bash
 sudo apt-get install yakuake
 ```
+### 8. Update drivers
+```bash
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt install nvidia-driver-440
+sudo apt autoremove
+sudo apt-get upgrade
+```
+
+In case of erros regarding public keys, follow [this link](https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/)'s instructions
