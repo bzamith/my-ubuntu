@@ -35,7 +35,8 @@ P.S: Pick theme "ubuntu-budgie-logo-scale-2.plymouth"
 
 ### 3. Change Login Background
 ```bash
-sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css```
+sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
+```
 
 #### Change the following lines:
 ```css
