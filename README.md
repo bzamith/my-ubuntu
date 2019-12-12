@@ -1,39 +1,9 @@
 # My Ubuntu Configs
 
-### 1. Change Theme
-#### Install Tweak-Tool
-```bash
-sudo apt install gnome-tweaks
-```
-#### Set Icons
-- Download [MacOS11 icons](https://www.gnome-look.org/p/1102582/) 
-- Extract to: ./icons (/home)
-- Set "Icons" at Tweak 
+### 1. Move Home Folder to HD
+- Follow the instructions provided by [Maketecheasier](https://www.maketecheasier.com/move-home-folder-ubuntu/)
 
-#### Set Cursor
-- Download [ElCaptain cursor](/OSX-ElCap.zip)
-- Extract to: ./icons (/home)
-- Set "Cursor" at Tweak
-
-#### Set Theme
-- Download [Sierra Light Solid](/Sierra-light-solid.zip)
-- Extract to: ./themes (/home)
-- Set "Appplications" at Tweak
-
-#### Set Plank Theme
-- Download [MacOS Default Color](/macOS-Default-Color.zip)
-- Extract to: ./local/share/plank/themes (/home)
-- Set "Theme" at Plank (Right-Click at Plank > Preferences)
-
-### 2. Change Plymouth Theme
-```bash
-sudo apt-get install plymouth-theme*
-sudo update-alternatives --config default.plymouth
-sudo update-initramfs -u
-```
-P.S: Pick theme "ubuntu-budgie-logo-scale-2.plymouth"
-
-### 3. Change Login Background
+### 2. Change Login Background
 ```bash
 sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
 ```
@@ -54,7 +24,7 @@ sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
   background-position: center; }
 ```
 
-### 4. Change Ubuntu Colors
+### 3. Change Ubuntu Colors
 ```bash
 sudo gedit /usr/share/gnome-shell/theme/gdm3.css
 ```
@@ -76,7 +46,7 @@ Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
 RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp).
 
 
-### 5. Change dock
+### 4. Change dock
 #### Remove Ubuntu Dock
 ```
 sudo apt remove gnome-shell-extension-ubuntu-dock
@@ -86,9 +56,9 @@ sudo apt remove gnome-shell-extension-ubuntu-dock
 sudo apt-get install plank
 ```
 
-### 6. Change Terminal Appearance
+### 5. Change Terminal Appearance
 
-### 7. Install Main Programs
+### 6. Install Main Programs
 - Calibre
 ```bash
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
@@ -98,6 +68,12 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 ```bash
 sudo apt-get install gimp
 ```
+- Git
+```bash
+sudo apt-get install git
+git config --global user.name "nome aqui"
+git config --global user.email "email aqui"
+```
 - Java JDK
 ```bash
 sudo apt-get install default-jdk
@@ -106,7 +82,7 @@ sudo apt-get install default-jdk
 - RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
 - Spotify
 ```bash
-snap install spotify
+sudo snap install spotify
 ```
 - Sublime
 ```bash
@@ -127,13 +103,13 @@ yum install VirtualBox-5.2
 ```
 - Visual Code
 ```bash
-sudo snap install --classic vscode
+sudo snap install code --classic
 ```
-- Yakuake
+- Whatsdesk
 ```bash
-sudo apt-get install yakuake
+sudo snap install whatsdesk
 ```
-### 8. Update drivers
+### 7. Update drivers
 ```bash
 sudo add-apt-repository ppa:graphics-drivers
 sudo apt-get update
