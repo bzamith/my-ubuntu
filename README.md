@@ -39,22 +39,23 @@ sudo gedit /usr/share/gnome-shell/theme/gdm3.css
 #bb3e11 > #1c7f91
 ```
 
-Change to the color that fits the most with the wallpaper. (Light > #63cde0 > #2a9eb3 > #1c7f91 > Dark)
+- Change to the color that fits the most with the wallpaper. (Light > #63cde0 > #2a9eb3 > #1c7f91 > Dark)
 
-Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
+- Ubuntu color palette [here](https://design.ubuntu.com/brand/colour-palette/).
 
-RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp).
+- RGB finder [here](https://www.w3schools.com/colors/colors_rgb.asp).
 
 
 ### 4. Change dock
-#### Remove Ubuntu Dock
-```
-sudo apt remove gnome-shell-extension-ubuntu-dock
-```
 #### Install Planck Dock
 ```
 sudo apt-get install plank
 ```
+#### Remove Ubuntu Dock
+- Rename /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com to /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com.bak
+- Alt + F2
+- Type r
+- Enter
 
 ### 5. Change Terminal Appearance
 
