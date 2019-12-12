@@ -8,14 +8,14 @@
 sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
 ```
 
-#### Change the following lines:
+- Change the following lines:
 ```css
 #lockDialogGroup {
   background: #41494c url(resource:///org/gnome/shell/theme/noise-texture.png);
   background-repeat: repeat; }
 ```
 
-#### To:
+- To:
 ```css
 #lockDialogGroup {
   background: #000000 url(file:///PATH_TO_BACKGROUND/BACKGROUND.PNG);
@@ -29,7 +29,7 @@ sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
 sudo gedit /usr/share/gnome-shell/theme/gdm3.css
 ```
 
-### Change colors: 
+- Change colors: 
 ```
 #e95420 > #501b4d
 ```
