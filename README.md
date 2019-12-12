@@ -4,6 +4,8 @@
 - Follow the instructions provided by [Maketecheasier](https://www.maketecheasier.com/move-home-folder-ubuntu/)
 
 ### 2. Change Login Background
+- Download [here](http://getwallpapers.com/collection/mac-os-yosemite-wallpapers)
+
 ```bash
 sudo gedit /usr/share/gnome-shell/theme/gnome-shell.css
 ```
