@@ -31,12 +31,7 @@ sudo gedit /usr/share/gnome-shell/theme/gdm3.css
 
 ### Change colors: 
 ```
-#e95420 > #63cde0
-#2c001e > #63cde0
-#dd4814 > #63cde0
-#e95320 > #63cde0
-#dd4814 > #2a9eb3
-#bb3e11 > #1c7f91
+#e95420 > #501b4d
 ```
 
 - Change to the color that fits the most with the wallpaper. (Light > #63cde0 > #2a9eb3 > #1c7f91 > Dark)
