@@ -78,6 +78,11 @@ sudo apt-get install default-jdk
 ```
 - Netbeans IDE ([Download link](https://netbeans.apache.org/download/))
 - RStudio ([Download link](https://www.rstudio.com/products/rstudio/download/))
+- Skype
+```bash
+wget https://go.skype.com/skypeforlinux-64.deb
+sudo apt install ./skypeforlinux-64.deb
+```
 - Spotify
 ```bash
 sudo snap install spotify
