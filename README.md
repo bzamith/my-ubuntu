@@ -122,3 +122,14 @@ sudo apt-get upgrade
 ```
 
 In case of erros regarding public keys, follow [this link](https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/)'s instructions
+
+### 8. Configurate the Keyboard
+- Set "English (US,intl.,with dead keys)
+- Edit /etc/environment
+```bash
+sudo nano /etc/environment
+```
+- Include: 
+```bash
+GTK_IM_MODULE=cedilla
+```
